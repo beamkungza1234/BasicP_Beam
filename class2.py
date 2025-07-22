@@ -1,5 +1,6 @@
 dist = input("Distance Price Calulator\nEnter Distance: ")
 dist = int(dist)
+
 #debug
 print(type(dist))
 
