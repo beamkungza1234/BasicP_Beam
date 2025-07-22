@@ -6,7 +6,7 @@ print(type(dist))
 
 print("------------------------------------------------------")
 
-if dist < 4:
+if dist <= 4:
     print("Your distance is: ", dist, "\nNo price included")
 elif 5 <= dist <= 50:
     print("Your distance is: ", dist, "\nPrice is 10 Bath")
@@ -21,3 +21,4 @@ elif dist > 500:
 else:
     print("Unknow distance. Please try again")
         
+     
