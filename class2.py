@@ -1,24 +1,55 @@
-dist = input("Distance Price Calulator\nEnter Distance: ")
-dist = int(dist)
+x = 1
 
-#debug
-print(type(dist))
+print(x)
 
-print("------------------------------------------------------")
+x = 4
 
-if dist <= 4:
-    print("Your distance is: ", dist, "\nNo price included")
-elif 5 <= dist <= 50:
-    print("Your distance is: ", dist, "\nPrice is 10 Bath")
-elif 51 <= dist <= 100:
-        print("Your distance is: ", dist, "\nPrice is 15 Bath")
-elif 101 <= dist <= 300:
-    print("Your distance is: ", dist, "\nPrice is 25 Bath")
-elif 301 <= dist <= 500:
-    print("Your distance is: ", dist, "\nPrice is 35 Bath")
-elif dist > 500:
-    print("Your distance is: ", dist, "\nPrice is 45 Bath")
-else:
-    print("Unknow distance. Please try again")
-        
-     
+print(x)
+
+text = "test"
+demical = 0.99
+boool = True
+
+print("---------------------\nData types:\n")
+print(type(x))
+print(type(text))
+print(type(demical))
+print(type(boool))
+
+#=====[TYPE CONVERSION]======
+
+abc = "100"
+cba = 100
+
+
+
+print(int(abc) + 50)
+
+ggs = 2.8
+print(int(ggs) + 123)
+
+print(str(ggs) + " hello")
+
+a = "120"
+b = "180"
+
+print("a + b:", int(a) + int(b))
+
+print(10 - 5)
+print(2 - 200)
+print(5 * 3)
+print(10 / 5)
+print(10 % 4)
+print(2 ** 3)
+print("-------------------------------------")
+
+def myText(x, a, b):
+    print(x)
+    print("World")
+    print(a + b)
+
+myText('Hello', 2, 8)
+
+print("-----------------")
+text = input("Enter text here: ")
+print(text)
