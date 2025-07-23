@@ -30,7 +30,7 @@ try:
                     MonsterHP = MonsterHP - blaster
                     print(f"----------------------\nAttacking with Blaster!\n[>] Monster now have {MonsterHP} HP left\n") 
                 else:
-                    print("[?] Unknow weapon Please try again\n\n")
+                    print("[?] Unknown weapon Please try again\n\n")
                     maxAttack = maxAttack + 1
 
                 if MonsterHP == 0:
@@ -42,10 +42,10 @@ try:
                     print("[!] Monster got heavily attack! The power of [นกคุมหลี] will revived them and give 20 HP\n    The battle will continue\n")
 
             if maxAttack == 0 and MonsterHP != 0:
-                print("[!] Out off attack! Try again?\n--------------------------------\n\n")
+                print("[!] No attack left! Try again?\n--------------------------------\n\n")
                 break
         else:
-            print("[?] Unknow Action! Please try again\n\n")
+            print("[?] Unknown Action! Please try again\n-------------------------------\n\n")
 
 except ValueError:
     print("[?] I don't know what do you type about? Maybe it happened by accident\n\n")
