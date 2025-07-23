@@ -20,7 +20,7 @@ try:
     elif dist > 500:
         print("Your distance is: ", dist, "\nPrice is 45 Bath")
     else:
-        print("Unknow distance. Please try again")
+        print("If you see this you are gay")
 
 except ValueError:
     print(f"-------------------------------------------\n[!] Your distance value just like a '{dist}'?? You are cooked bro\n-------------------------------------------")
